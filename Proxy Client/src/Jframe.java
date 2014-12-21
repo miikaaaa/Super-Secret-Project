@@ -33,7 +33,7 @@ public class Jframe extends client implements ActionListener {
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 			JPopupMenu.setDefaultLightWeightPopupEnabled(false);
-			frame = new JFrame("Biohazard");
+			frame = new JFrame("Super-Secret");
 			frame.setLayout(new BorderLayout());
 			setFocusTraversalKeysEnabled(false);
 			frame.setResizable(false);
